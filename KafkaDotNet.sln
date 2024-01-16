@@ -4,8 +4,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaProducer", "KafkaProdu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedClasses", "SharedClasses\SharedClasses.csproj", "{8B599109-6CED-4B55-87B6-B091ADC24AE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaConsumer", "KafkaConsumer\KafkaConsumer.csproj", "{431A88AF-763B-49DF-8EC8-14D67029C0D6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumerWorkerService", "ConsumerWorkerService\ConsumerWorkerService.csproj", "{93737896-4088-4E09-BB3A-958BB29DC204}"
 EndProject
 Global
@@ -22,10 +20,6 @@ Global
 		{8B599109-6CED-4B55-87B6-B091ADC24AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B599109-6CED-4B55-87B6-B091ADC24AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B599109-6CED-4B55-87B6-B091ADC24AE3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{431A88AF-763B-49DF-8EC8-14D67029C0D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{431A88AF-763B-49DF-8EC8-14D67029C0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{431A88AF-763B-49DF-8EC8-14D67029C0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{431A88AF-763B-49DF-8EC8-14D67029C0D6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{93737896-4088-4E09-BB3A-958BB29DC204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{93737896-4088-4E09-BB3A-958BB29DC204}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93737896-4088-4E09-BB3A-958BB29DC204}.Release|Any CPU.ActiveCfg = Release|Any CPU
