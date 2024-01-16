@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-Consumer-AC30B509-2C17-41E3-B55F-1EFF876D5878</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Confluent.Kafka" Version="1.8.2" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1"/>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SharedClasses\SharedClasses.csproj" />
+    </ItemGroup>
+</Project>

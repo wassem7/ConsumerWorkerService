@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4haM2L7tYKzujtxDNx/yG7OvfmBb2nmOp/sNBkI71vw=",
+  "Source": "KafkaConsmer",
+  "BasePath": "_content/KafkaConsmer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
